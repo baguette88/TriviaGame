@@ -70,7 +70,7 @@ $(() => {
   $($titlescreen).append($selectacat);
   $($selectacat).text("Select a Category:");
   $($selectacat).css("font-size", "36px");
-  $($selectacat).css("color", "white");
+  $($selectacat).css("color", "black");
   $($selectacat).css("background-color", "white");
   $($selectacat).css("text-align", "center");
 
