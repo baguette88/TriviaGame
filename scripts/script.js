@@ -42,7 +42,7 @@ $(() => {
   }
   $($playerScore).addClass("score");
 
-  $($playerScore).css("color", "white");
+  $($playerScore).css("color", "black");
   $($playerScore).css("font-size", "48px");
   $($playerScore).html(playerScore);
 
@@ -95,10 +95,10 @@ $(() => {
 
     // completesound.play()
     $(".playerScreen").hide();
-    $(".canvas").css("border", "2px solid white");
+    $(".canvas").css("border", "2px solid black");
     $(".canvas").hide();
     $(".canvas").empty(); //slideDown(450)
-    $(".canvas").css("border", "2px solid black"); //STYLING THE QUESTION CANVAS
+    //STYLING THE QUESTION CANVAS
     $(".canvas").css("background-color", "lightgrey"); // CHANGE COLOR AT NEW LEVEL?
     $(".canvas").css("color", "black");
 
@@ -392,7 +392,7 @@ $(() => {
         ticks++;
         $("#timer").css("color", "white");
         $($playerScore)
-          .css("color", "white")
+          .css("color", "black")
           .css("display", "block")
           .css("font-size", "12px;");
         var currentMinutes = mins - 1;

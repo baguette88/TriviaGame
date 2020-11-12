@@ -2,6 +2,7 @@
 
 .playerScore{
   margin-top: -50px;
+  color: black;
 }
 
 #timer{
@@ -234,7 +235,8 @@ lhead {
   height: 50%;
   margin-left: 10%;
   font-size: 36px;
-  background-color:  white;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(94, 94, 94));
+  box-shadow: 2px 2px 3px 4px #ccc;
 }
 
  /* .bigCanvas{
