@@ -9,7 +9,8 @@
 #timer{
   display: inline-block;
   float: center;
-  font-size: 24px;
+  font-size: 18px;
+  color:black;
 }
 
 .container{
@@ -37,7 +38,7 @@
   background-image: linear-gradient(white, rgb(94, 94, 94));
   box-shadow: 2px 2px 2px 3px #ccc;
 color: black;
-height: 100px;
+height: 140px;
 }
 
 button {
