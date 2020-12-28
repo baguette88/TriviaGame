@@ -390,11 +390,11 @@ $(() => {
         var counter = document.getElementById("timer");
         $timer = counter;
         ticks++;
-        $("#timer").css("color", "white");
+        $("#timer").css("color", "black");
         $($playerScore)
           .css("color", "black")
           .css("display", "block")
-          .css("font-size", "12px;");
+          .css("font-size", "18px;");
         var currentMinutes = mins - 1;
         seconds--;
         seconds = seconds + bonus; //ADD BONUS TIME
