@@ -558,7 +558,7 @@ $(() => {
 
   $openBtn.on("click", openModal); // REVISE TO OPEN ON QUESTION ANSWER
 
-  $($playerScore).appendTo(".container");
+  $($playerScore).appendTo($banner);
   $($highScore).appendTo(".banner").css("font-size", "24px");
 
   $($banner).hide();
