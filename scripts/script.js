@@ -42,8 +42,8 @@ $(() => {
   }
   $($playerScore).addClass("score");
 
-  $($playerScore).css("color", "black");
-  $($playerScore).css("font-size", "48px");
+  $($playerScore).css("color", "blue");
+  $($playerScore).css("font-size", "36px");
   $($playerScore).html(playerScore);
 
   $($playerScore).hide();
@@ -297,9 +297,9 @@ $(() => {
         updateScore();
         $("audio#audio3")[0].play();
 
-        $("#timer").css("color", "gold");
+        $("#timer").css("color", "green");
         $("#timer").text("+5");
-        $($playerScore).css("color", "gold");
+        $($playerScore).css("color", "green");
         questionsCorrect.push(x);
         setTimeout(function () {
           nextQuestion();
@@ -776,9 +776,9 @@ $(() => {
         updateScore();
         $("audio#audio3")[0].play();
 
-        $("#timer").css("color", "gold");
+        $("#timer").css("color", "green");
         $("#timer").text("+3 seconds");
-        $($playerScore).css("color", "gold");
+        $($playerScore).css("color", "green");
         questionsCorrect.push(x);
         setTimeout(function () {
           nextQuestion();
